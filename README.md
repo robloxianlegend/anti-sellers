@@ -1,10 +1,6 @@
 ### DOWNLOAD THE BOT:
 https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip
-- hello ive decided to not run my own bot (unless i change my mind) just download the bots source and host it yourself (db.json will still be updated)
-
----
-
-### anti-sellers (in-dev)
+- I've decided to not (yet) host the bot, please just download the bots source and host the bot yourself, db.json will still be updated
 
 ---
 
