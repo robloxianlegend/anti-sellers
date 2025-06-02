@@ -1,5 +1,9 @@
 ### UPDATE (JUN 2)
-- I am also banning identified traders, why? They also count as selling.
+- I am also banning identified (nude) traders
+- Bots hoster is currently down (meaning the bot will be temporarily down)
+- NOTE: Even while bot is down, i am still logging sellers
+
+---
 
 Why use @clauz, a discord bot that will ban sellers from your discord server (even if they aren't on the server)
 - GITHUB REPO: https://github.com/robloxianlegend/anti-sellers
