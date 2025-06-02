@@ -52,11 +52,20 @@ Why use @clauz, a discord bot that will ban sellers from your discord server (ev
 * **Preserve Trust and Reputation:** Your members will trust your server more when it’s free from shady sellers.
 * **Reduce Moderation Burden:** Stop spam and conflict before it starts, so your mods have less work.
 
---
+---
 
 # We are
-Free! Yep, we are 100% free. We do not need your money to keep this project running!
-Transparent! Everyone whos banned is public for everyone to see. 
 
-# USE CLAUZ AND PROTECT MINORS FROM YOUR DISCORD SERVER!
+* **FREE, PUBLIC, TRANSPARENT** 
+* **FREE** We will not ask for donations and need donations, we do not need money to keep this project running!
+* **PUBLIC** We are fully open-source (not as of jun 2 as i am still working on the bot)
+* **TRANSPARENT** You will see all ID's of everyone banned at https://gatorkeys.xyz/db.json
+
+---
+
+# Are the sellers 100% sellers?
+* **Absolutely,** I make sure everyone banned are actually sellers. (we do not base of messages but we base of NSFW images sent by users on servers)
+* **What if they are just trolling?** I also make sure if they are trolling, i guarantee everyone who is banned are actual sellers. (fact, 90% of banned are actually advertising on tiktok!)
+
+# Invite Clauz! (if you want)
 https://discord.com/oauth2/authorize?client_id=1371380162259583078
