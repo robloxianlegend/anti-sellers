@@ -10,8 +10,6 @@ https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip
 
 ### UPDATE (JUN 2)
 - I am also banning identified (nude) traders
-- Bots hoster is currently down (meaning the bot will be temporarily down)
-- NOTE: Even while bot is down, i am still logging sellers
 
 ---
 
