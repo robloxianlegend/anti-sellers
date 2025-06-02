@@ -64,10 +64,13 @@ Why use @clauz, a discord bot that will ban sellers from your discord server (ev
 ---
 
 # Are the sellers 100% sellers?
-* **Absolutely,** I make sure everyone banned are actually sellers. (we do not base of messages but we base of NSFW images sent by users on servers)
+* **Absolutely,** I make sure everyone banned are actually sellers. (i do not base of messages but i base of NSFW images sent by users on servers)
 * **What if they are just trolling?** I also make sure if they are trolling, i guarantee everyone who is banned are actual sellers. (fact, 90% of banned are actually advertising on tiktok!)
 
 ---
+
+# What are the plans for the bot?
+* **Adding AI to monitor behaviors** I'm currently working on a AI which will monitor members messages and detect if someones a seller
 
 # Invite Clauz! (if you want)
 https://discord.com/oauth2/authorize?client_id=1371380162259583078
