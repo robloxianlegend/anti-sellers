@@ -1,6 +1,6 @@
 Why use @clauz, a discord bot that will ban sellers from your discord server (even if they aren't on the server)
-GITHUB REPO: https://github.com/robloxianlegend/anti-sellers
-DOWNLOAD CLAUZ SOURCE: https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip | FOR ASSITANCE DM @mobiledataskeleton (DISCORD)
+- GITHUB REPO: https://github.com/robloxianlegend/anti-sellers
+- DOWNLOAD CLAUZ SOURCE: https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip | FOR ASSITANCE DM @mobiledataskeleton (DISCORD)
 
 ### Risks Discord Sellers Bring to Your Server
 
