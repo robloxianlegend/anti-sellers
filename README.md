@@ -1,5 +1,8 @@
 ### Invite clauz to your server
 https://discord.com/oauth2/authorize?client_id=1371380162259583078
+---
+
+### RECODING BOT DUE TO UNOPTIMIZED CODE
 
 ---
 
@@ -9,7 +12,7 @@ https://discord.com/oauth2/authorize?client_id=1371380162259583078
 
 Why use @clauz, a discord bot that will ban sellers from your discord server (even if they aren't on the server)
 - GITHUB REPO: https://github.com/robloxianlegend/anti-sellers
-- DOWNLOAD CLAUZ SOURCE: https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip | FOR ASSITANCE DM @mobiledataskeleton (DISCORD)
+- DOWNLOAD CLAUZ SOURCE: https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip | FOR ASSITANCE DM @gatorkeys (DISCORD)
 
 ### Risks Discord Sellers Bring to Your Server
 
