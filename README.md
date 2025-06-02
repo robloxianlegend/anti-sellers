@@ -1,3 +1,7 @@
+### anti-sellers (in-dev)
+
+---
+
 ### UPDATE (JUN 2)
 - I am also banning identified (nude) traders
 - Bots hoster is currently down (meaning the bot will be temporarily down)
