@@ -1,5 +1,5 @@
 ### DOWNLOAD THE BOT:
-https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip
+https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip (paste on blank tab)
 - I've decided to not (yet) host the bot, please just download the bots source and host the bot yourself, db.json will still be updated
 
 ---
