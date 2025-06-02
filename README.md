@@ -72,5 +72,12 @@ Why use @clauz, a discord bot that will ban sellers from your discord server (ev
 # What are the plans for the bot?
 * **Adding AI to monitor behaviors** I'm currently working on a AI which will monitor members messages and detect if someones a seller
 
+---
+
+# Website Routes
+https://gatorkeys.xyz/db.json, https://gatorkeys.xyz/admins.json
+
+---
+
 # Invite Clauz! (if you want)
 https://discord.com/oauth2/authorize?client_id=1371380162259583078
