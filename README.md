@@ -1,8 +1,11 @@
+### Invite clauz to your server
+https://discord.com/oauth2/authorize?client_id=1371380162259583078
 
+---
 
 ### UPDATE (JUN 2)
 - I am also banning identified (nude) traders
-
+-Bot is up (https://discord.com/oauth2/authorize?client_id=1371380162259583078)
 ---
 
 Why use @clauz, a discord bot that will ban sellers from your discord server (even if they aren't on the server)
