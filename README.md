@@ -2,15 +2,7 @@
 https://discord.com/oauth2/authorize?client_id=1371380162259583078
 ---
 
-### RECODING BOT DUE TO UNOPTIMIZED CODE
-
----
-
-### UPDATE (JUN 2)
-- I am also banning identified (nude) traders
----
-
-Why use @clauz, a discord bot that will ban sellers from your discord server (even if they aren't on the server)
+Why you should use @clauz, a discord bot that will ban sellers from your discord server (even if they aren't on the server)
 - GITHUB REPO: https://github.com/robloxianlegend/anti-sellers
 - DOWNLOAD CLAUZ SOURCE: https://github.com/robloxianlegend/anti-sellers/blob/main/clauz.zip | FOR ASSITANCE DM @gatorkeys (DISCORD)
 
@@ -86,6 +78,8 @@ Why use @clauz, a discord bot that will ban sellers from your discord server (ev
 
 # What are the plans for the bot?
 * **Adding AI to monitor behaviors** I'm currently working on a AI which will monitor members messages and detect if someones a seller
+
+* **What else do we ban?** I also ban Weirdos (individuals on roblox condo games/nsfw servers), Pedophiles (This is still in the works as we're still gathering information)
 
 ---
 
