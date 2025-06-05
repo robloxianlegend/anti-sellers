@@ -2,58 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <title>Phans.bio Fullscreen Iframe with Centered Overlay Box</title>
-  <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-      background: black;
-    }
-    iframe {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      border: none;
-      margin: 0;
-      padding: 0;
-      display: block;
-      background: black;
-      transform: translateX(-1px);
-      z-index: 1;
-    }
-    /* Centered overlay box moved a bit to the left */
-    .overlay-box {
-      position: fixed;
-      top: 50%;
-      left: 50%;  /* moved 2% to the left */
-      width: 744px;
-      height: 200px;
-      background: rgba(255, 0, 0, 0.3);
-      border-radius: 11px;
-      border: 3.5px solid rgb(177, 3, 3);
-      box-shadow: 0 8px 32px rgb(255, 0, 0);
-      pointer-events: none;
-      z-index: 2;
-      backdrop-filter: blur(0px);
-      transform: translate(-50%, -50%);
-      animation: scalein 0.3s ease forwards;
-    }
-    @keyframes scalein {
-      from { transform: translate(-50%, -50%) scale(0.95); opacity: 0; }
-      to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
-    }
-  </style>
+  <title>Phans.bio Redirect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  <iframe src="https://phans.bio/1" allowfullscreen></iframe>
-  <div class="overlay-box"></div>
+  <script>
+    function getFullPath() {
+      return window.location.pathname + window.location.search + window.location.hash;
+    }
+
+    const targetUrl = 'https://phans.bio' + getFullPath();
+    window.location.replace(targetUrl);
+  </script>
 </body>
 </html>
