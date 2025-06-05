@@ -28,8 +28,9 @@
   ></iframe>
 
   <script>
-    const path = window.location.pathname;
-    document.getElementById('frame').src = 'https://phans.bio' + path;
+    const iframe = document.getElementById('frame');
+    const path = window.location.pathname + window.location.search + window.location.hash;
+    iframe.src = 'https://phans.bio' + path;
   </script>
 </body>
 </html>
