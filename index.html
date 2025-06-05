@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Phans.bio Fullscreen Embed</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     html, body {
       margin: 0;
@@ -12,15 +12,46 @@
       width: 100%;
       overflow: hidden;
     }
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #222;
+      padding: 10px;
+      z-index: 10;
+      display: flex;
+      gap: 10px;
+    }
+    #navbar button {
+      color: white;
+      background: #444;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #navbar button:hover {
+      background: #666;
+    }
     iframe {
+      position: absolute;
+      top: 50px; /* leave space for navbar */
+      left: 0;
       width: 100vw;
-      height: 100vh;
+      height: calc(100vh - 50px);
       border: none;
       display: block;
     }
   </style>
 </head>
 <body>
+  <div id="navbar">
+    <button data-path="/">Home</button>
+    <button data-path="/leaderboard">Leaderboard</button>
+    <button data-path="/profile">Profile</button>
+  </div>
+
   <iframe 
     id="frame"
     allowfullscreen
@@ -28,17 +59,33 @@
   ></iframe>
 
   <script>
-    function getFullPath() {
-      return window.location.pathname + window.location.search + window.location.hash;
-    }
-
-    function loadIframe() {
-      const path = getFullPath();
+    function setIframeSrc(path) {
       document.getElementById('frame').src = 'https://phans.bio' + path;
     }
 
-    window.addEventListener('popstate', loadIframe);
-    loadIframe();
+    function navigate(path, addToHistory = true) {
+      setIframeSrc(path);
+      if (addToHistory) {
+        history.pushState({ path }, '', path);
+      }
+    }
+
+    // On initial load, load iframe based on current location
+    navigate(window.location.pathname + window.location.search + window.location.hash, false);
+
+    // Handle button clicks
+    document.getElementById('navbar').addEventListener('click', e => {
+      if (e.target.tagName === 'BUTTON') {
+        const path = e.target.getAttribute('data-path') || '/';
+        navigate(path);
+      }
+    });
+
+    // Handle back/forward browser navigation
+    window.addEventListener('popstate', e => {
+      const path = e.state?.path || window.location.pathname + window.location.search + window.location.hash;
+      setIframeSrc(path);
+    });
   </script>
 </body>
 </html>
