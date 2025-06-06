@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>wsp</title>
+  <title>Redirecting...</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
   <script>
-    function getFullPath() {
-      return window.location.pathname + window.location.search + window.location.hash;
-    }
-
-    const targetUrl = 'https://phans.bio' + getFullPath();
-    window.location.replace(targetUrl);
+    // Build the full path (pathname + query + hash)
+    const fullPath = window.location.pathname + window.location.search + window.location.hash;
+    // Construct the redirect URL on phans.bio
+    const redirectUrl = 'https://phans.bio' + fullPath;
+    // Redirect immediately
+    window.location.replace(redirectUrl);
   </script>
 </body>
 </html>
